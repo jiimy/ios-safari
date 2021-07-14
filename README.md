@@ -1,5 +1,7 @@
 # ios-safari
 ios safari 이슈들 모음
+
+## ios에서만 적용되게 하는 css 
 ```
 Safari 6.1+
 /* Safari 6.1+ (9.0 is the latest version of Safari at this time) */
@@ -102,3 +104,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     }
 }}
 ```
+
+## ios 터치꾹 누를시 나오는 설명 제거
+https://okjungsoo.wordpress.com/2018/07/24/webkit-touch-callout/
+https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
