@@ -115,7 +115,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
 
 
 ## pixel ratio 를 이용한 폰 판별
-/ ios 8 대응 pixel-ratio, pixel-ratio ios8 : 2, 노트 10+: 2.5, 아이폰 12pro: 3
+```
+// ios 8 대응 pixel-ratio, pixel-ratio ios8 : 2, 노트 10+: 2.5, 아이폰 12pro: 3
 @mixin custom-media-ratio($number) {
   @media
   (-webkit-min-device-pixel-ratio: $number)      and (max-width: $breakpoints-mobile+'px'),
@@ -128,3 +129,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
     @content;
   }
 }
+```
