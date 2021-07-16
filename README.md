@@ -108,3 +108,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 ## ios 터치꾹 누를시 나오는 설명 제거
 https://okjungsoo.wordpress.com/2018/07/24/webkit-touch-callout/
 https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-touch-callout
+
+
+위 기능이 ios에서만 되기때문에 
+@support '기능' 으로 해서 ios판별 가능. 
+
